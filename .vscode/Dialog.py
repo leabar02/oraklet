@@ -1,12 +1,11 @@
-import random
+print("Vad heter du?")
 
-ditt_slag = random.randint(1, 6)
-datorns_slag = random.randint(1, 6)
+namn = input("namn")
 
-print(f"Du slog: {ditt_slag}")
-print(f"Datorn slog: {datorns_slag}")
+ålder = int(input("Hur gammal är du?"))
 
-if ditt_slag > datorns_slag:
-    print("Du vann!")
-else:
-    print("Datorn vann den här gången.")
+print("Vilket år är det?")
+
+aktuellt_år = input("aktuellt_år")
+
+print(f"Hej {namn}! Du är ungefär {ålder} år gammal i {aktuellt_år}! ")
